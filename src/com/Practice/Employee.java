@@ -1,27 +1,30 @@
 package com.Practice;
 
 //final keyword
-public class DemoEmployee {
+ public  class Employee {
     int empId;
     String name;
-  final String company="google";
-  /*public  DemoEmployee(String company){
-      this.company=company;
-    }*/
-    public  void  getEmployeDetails(){
-        System.out.println(" EmployeeId = "+empId);
-        System.out.println("EmployeeName = "+name);
-        System.out.println("company = "+company);
+    final String company="google";
+
+   /* public Employee(String company) {
+        this.company = company;
     }
-   public static void main(String[] args) {
-       DemoEmployee de=new DemoEmployee();
-       de.empId=1;
-       de.name="hira";
-     //  de.company="Amazone";
-       de.getEmployeDetails();
-       DemoEmployee de2=new DemoEmployee();
-       de2.empId=2;
-       de2.name="Shaifali";
-       de2.getEmployeDetails();
-   }
+*/
+    public void getEmployeeDetails() {
+        System.out.println("employeeid " + empId);
+        System.out.println("name " + name);
+        System.out.println("company " + company);
+    }
+public  void greet(){
+    System.out.println("hello,Employee");
+}
+
+   /* public static void main(String[] args) {
+        Employee e1 = new Employee();
+        e1.empId = 1;
+        e1.name = "Hira";
+      e1.getEmployeeDetails();
+
+
+    }*/
 }

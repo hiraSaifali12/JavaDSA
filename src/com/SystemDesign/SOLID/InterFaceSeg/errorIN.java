@@ -2,7 +2,7 @@ package com.SystemDesign.SOLID.InterFaceSeg;
 
 public interface errorIN {
     //interface segamntation
-    //interface should be such that client should not implementedunnecessary method fun they dont need
+    //interface should be such that client should not implemented unnecessary method fun they dont need
 
     //here am making interface for waiter
    void washDish();
